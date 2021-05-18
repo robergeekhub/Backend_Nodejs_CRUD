@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/robergeekhub/Backend_Nodejs_CRUD/issues"
   },
-  "homepage": "https://github.com/robergeekhub/Backend_Nodejs_CRUD#readme"
+  "homepage": "https://github.com/robergeekhub/Backend_Nodejs_CRUD#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
