@@ -3,7 +3,9 @@ class Usuario {
     nombredeusuario;
     contraseña;
 
-    constructor(){
+    constructor(usuario){
+        this.nombredeusuario = usuario.nombredeusuario;
+        this.contraseña = usuario.contraseña;
 
     }
 }
