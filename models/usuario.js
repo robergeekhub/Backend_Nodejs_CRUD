@@ -1,13 +1,10 @@
-class Usuario {
+const mongoose = require('mongoose');
 
-    nombredeusuario;
-    contraseña;
-
-    constructor(usuario){
-        this.nombredeusuario = usuario.nombredeusuario;
-        this.contraseña = usuario.contraseña;
-
-    }
+const usuarioSchema = {
+    nombredeusuario: "String",
+    contraseña: "String"
 }
+
+const Usuario = mongoose.model('Usuario', usuarioSchema);
 
 module.exports = Usuario;

@@ -1,6 +1,6 @@
 const Usuario = require("../models/usuario");
 
-class usuarioController {
+class UsuarioController {
 
     constructor() {
     }
@@ -21,5 +21,5 @@ class usuarioController {
     }
 }
 
-let usuarioController = new Usuario();
+let usuarioController = new UsuarioController();
 module.exports = usuarioController;
