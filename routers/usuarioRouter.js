@@ -27,7 +27,7 @@ router.post('/',async (req, res) => {
 router.put('/:id',async (req,res) => {
     try{
         const id = req.params.id;
-        res.json(await usuariosController.update(id,new Usuario(req.body)));
+        res.json(await usuariosController.update(id,req.body));
     } catch( error ){
         return res.sendStatus(500).json({
             message: 'Server Error'
